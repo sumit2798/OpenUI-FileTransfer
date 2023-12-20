@@ -26,8 +26,46 @@ Before starting the Building , The we will configure the server File Path like s
 </table>
 <br>
 At System Preference Add the Following 
-_**Allow File System Access = TRUE**_
-**Reccomended** : Use CSSBCFile method to upload and download file
+<i><b>Allow File System Access = TRUE</b></i><br>
+<b>Reccomended</b> : Use CSSBCFile method to upload and download file
+<br><br>
+<b><u>NEW CUSTOM TABLE KEY COLOUMN</b></u><br>
+1.)	Status<br>
+2.)	Object Name<br>
+3.)	Login<br>
+4.)	Version<br>
+5.)	Error<br>
+<br><br>
+<i>Now Lets build Screen and View to upload File and Required Applet for File Attachment and movement of file .</i><br>
+
+Create a Screen, Consider building View with File Attachment , Let me tell what buttons to be added and what drop down we need to add in it.
+You can take any File Attachment , consider taking Responsibility Attachment, Opportunity Attachment Server, Agreement New Attachment.<br>
+<i>Optional: You can add Manifest Applet in the Screen </i>
+Check the below diagram to understand the setup
+![image](https://github.com/sumit2798/OpenUI-FileTransfer/assets/42507060/c4f762c7-7a96-4d9b-868c-aae0209e8787)
+
+<br>
+We have three button on Attachment Applet , Lets Dive each buttons.We have three button on Attachment Applet , Lets Dive each BC level script one by one buttons and code walkthrough of each .<br>
+<b>Please refer the code attached in repo and make changes based on it.</b><br>
+<u><b>Check-in</u></b><br>
+In the  set of code written at BC level , we are considering one extra field to be added that is comment for the reference when the file uploaded we can check what was the modification made for.It works for both new and existing checkin.<br>
+<u><b>Check-out</u></b><br>
+This code will help you to check out lock under your name so that no other person check out and utilizes the code. Do remember here file name need to passed as input either u make in bs script for above or at BC you can use GetFieldValue for the value of Filename. Either way is fine both will work.<br>
+<u><b>Undo Check-out</u></b><br>
+Undo -checkout is used for Checking the file checkedout to revert back the old version to work upon.
+<br><br>
+<b>Bonus</b>
+We can add-ons like file diffrentioner from old and new by using certian jquery pop-up plugin (under progress).<br>
+Method like GetFile not locking anything .We can use code Differentiation on the screen which can help to compare last checked in and current File
+
+
+
+
+
+
+
+
+
 
 
 
