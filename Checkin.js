@@ -82,7 +82,7 @@ function checkIn(Inputs, Outputs) {
                     
                 }
                 var expr="";
-                server_file_path=server_file_path+"\\"+sFileName+"."+sFileExt;
+                server_file_path=server_file_path+"\\"+sFileName+"*."+sFileExt;
                 //do check the server_file_path once 
                 if(server=="Linux"){
                     expr="mv "
