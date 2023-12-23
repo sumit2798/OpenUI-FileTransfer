@@ -100,7 +100,8 @@ Method like GetFile not locking anything .We can use code Differentiation on the
             Login
             Version
             Error
-
+<br>
+<b><i><font color="red">Please feel free to raise any issue or suggestion  , mail@ sumitpatnaik2798@gmail.com Whatsapp: +91 9337391815</font></i></b>
 
 
 
