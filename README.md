@@ -79,7 +79,27 @@ Undo -checkout is used for Checking the file checkedout to revert back the old v
 We can add-ons like file diffrentioner from old and new by using certian jquery pop-up plugin (under progress).<br>
 Method like GetFile not locking anything .We can use code Differentiation on the screen which can help to compare last checked in and current File
 
+Setup
 
+    LOV Configuration:
+        Configure LOV for server names based on the operating system (OS) version.
+    Type	Value	LIC
+    SRV_PATH	css_file_path	CSS
+    SRV_PATH	js_file_path	Js
+    SRV_PATH	Image_path	Image
+    SRV_MODEL	LINUX/WINDOWS	MODEL
+
+    System Preference:
+        Add the following:
+            Allow File System Access = TRUE
+
+    Custom Table:
+        Create a custom table with key columns:
+            Status
+            Object Name
+            Login
+            Version
+            Error
 
 
 
