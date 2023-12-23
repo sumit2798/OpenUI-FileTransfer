@@ -66,8 +66,8 @@ Code Walkthrough
 <br>
 We have three button on Attachment Applet , Lets Dive each buttons.We have three button on Attachment Applet , Lets Dive each BC level script one by one buttons and code walkthrough of each .<br>
 
-<b><span style color="red">All the code can be lied in the WriteRecord of BC or you can all the function onclick trigger event in PR files </style>></b>
-<b>Please refer the code attached in repo and make changes based on it.</b></span><br>
+<b><p style="color: blue;">All the code can be lied in the WriteRecord of BC or you can all the function onclick trigger event in PR files</p></b><br>
+<b>Please refer the code attached in repo and make changes based on it.</b><br>
 <u><b>Check-in</u></b><br>
 In the  set of code written at BC level , we are considering one extra field to be added that is comment for the reference when the file uploaded we can check what was the modification made for.It works for both new and existing checkin.<br>
 <u><b>Check-out</u></b><br>
